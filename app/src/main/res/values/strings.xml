@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">淘菜</string>
+
+    <array name="expand_titles">
+        <item>叶菜类</item>
+        <item>根茎类</item>
+        <item>茄果类</item>
+        <item>葱姜类</item>
+        <item>菌菇类</item>
+        <item>豆类</item>
+        <item>特菜类</item>
+    </array>
+
+    <array name="express_titles">
+        <item>顺丰</item>
+        <item>申通</item>
+        <item>圆通</item>
+        <item>韵达</item>
+        <item>天天</item>
+    </array>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/rl_photobycamer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/fgx"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/dialog_bycamer"
+        android:orientation="vertical" >
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="拍照"
+            android:textColor="#107ED3"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/fgx"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@+id/rl_photobygallery"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="#107ED3" />
+
+    <RelativeLayout
+        android:id="@+id/rl_photobygallery"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/button_cancle"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/dialog_photobygallery2"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="从相册选择"
+            android:textColor="#107ED3"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_cancle"
+        android:layout_width="120dip"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/dialog_cancle_bg"
+        android:text="取消"
+        android:textColor="#107ED3"
+        android:textSize="18sp" />
+
+</RelativeLayout>

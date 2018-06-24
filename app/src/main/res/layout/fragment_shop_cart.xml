@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购物车"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tv_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清空"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ListView
+            android:id="@+id/lv"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"/>
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="合计："
+            android:layout_marginLeft="20dp"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="元"
+            android:textColor="#333333"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tv_goods_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0件商品"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tv_order_number"
+            android:layout_width="0dp"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0个订单"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/tv_jie_suan"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:text="结算"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

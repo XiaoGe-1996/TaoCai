@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#68c964</color>
+    <color name="colorPrimaryDark">#68c964</color>
+    <color name="colorAccent">#68c964</color>
+    <color name="theme_color">#68c964</color>
+    <color name="white">#ffffff</color>
+    <color name="line">#CECECE</color>
+    <color name="etBg">#D3D1D1</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_no_photo">#EEEEEE</color>
+    <color name="theme_button_color">#ff69C965</color>
+    <color name="actionbar_separator">#50f0f0f0</color>
+    <color name="deepskyblue">#00bfff</color><!--深天蓝色 -->
+    <color name="color_js_input">#ff999999</color>
+    <color name="red">#ee583a</color>
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowAnimationStyle">@anim/dialog_phone_exit</item>
+    </style>
+
+    <style name="ActionBarHomeLogo">
+        <item name="android:layout_marginRight">1px</item>
+        <item name="android:layout_marginLeft">0px</item>
+    </style>
+
+    <style name="ActionBarItem">
+        <item name="android:layout_width">@dimen/actionbar_item_width</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginLeft">1px</item>
+    </style>
+
+    <style name="ActionBarHomeItem" parent="ActionBarItem">
+        <item name="android:layout_marginRight">1px</item>
+        <item name="android:layout_marginLeft">0px</item>
+    </style>
+
+    <style name="ActionBarProgressBar" parent="@android:style/Widget.ProgressBar.Small"></style>
+
+    <style name="dialog_theme">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+</resources>

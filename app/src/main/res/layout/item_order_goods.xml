@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/iv_goodsImg"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_goods_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="青菜"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_goods_guige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="1.50元/斤"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="x3     ¥4.50"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FDFCFA"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/rl_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="3dp" >
+
+            <ImageView
+                android:id="@+id/iv_home"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/tab_home" />
+
+            <TextView
+                android:id="@+id/tv_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_home"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:text="首  页"
+                android:textColor="#969696"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_goods"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="3dp" >
+
+            <ImageView
+                android:id="@+id/iv_goods"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/tab_goods" />
+
+            <TextView
+                android:id="@+id/tv_goods"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_goods"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:text="商  品"
+                android:textColor="#969696"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_shopcart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="3dp" >
+
+            <ImageView
+                android:id="@+id/iv_shopcart"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/tab_cart" />
+
+            <TextView
+                android:id="@+id/tv_shopcart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_shopcart"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:text="购物车"
+                android:textColor="#969696"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_recommend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="3dp" >
+
+            <ImageView
+                android:id="@+id/iv_recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/tab_recommend" />
+
+            <TextView
+                android:id="@+id/tv_reecommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_recommend"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:text="推  荐"
+                android:textColor="#969696"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="3dp" >
+            <ImageView
+                android:id="@+id/iv_me"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/tab_me" />
+            <TextView
+                android:id="@+id/tv_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_me"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:text="我  的"
+                android:textColor="#969696"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_temp"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_above="@id/main_bottom"
+        android:background="#d6d6d6" />
+
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/view_temp"
+        />
+
+</RelativeLayout>

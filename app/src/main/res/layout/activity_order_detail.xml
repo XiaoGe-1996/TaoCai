@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <ImageView
+                    android:id="@+id/iv_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:id="@+id/iv_back"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/back2"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="凭包菜"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="销售规格：斤   计价单位：斤"
+                android:layout_marginLeft="20dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="1.8元/斤"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/tv_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="数量：4斤"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="这是详情"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"/>
+   <TextView
+       android:id="@+id/tv_add_pinglun"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@color/colorPrimary"
+       android:text="添加评论"
+       android:textColor="@color/white"
+       android:gravity="center"
+       android:textSize="20sp"/>
+</LinearLayout>

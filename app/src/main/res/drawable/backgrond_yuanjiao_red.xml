@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/theme_button_color" />
+    <corners android:radius="3dp" />
+    <!--<padding-->
+    <!--android:left="0dp"-->
+    <!--android:right="0dp" />-->
+    <!--<size-->
+    <!--android:width="200dp"-->
+    <!--android:height="45dp"/>-->
+
+</shape>  

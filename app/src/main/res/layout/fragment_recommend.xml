@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:text="推荐商品"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:gravity="center"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <GridView
+            android:layout_marginTop="30dp"
+            android:id="@+id/gridView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:horizontalSpacing="0.0dip"
+            android:listSelector="@color/transparent"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0.0dip"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的地址"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back1"
+            android:layout_centerVertical="true"
+            android:padding="5dp"/>
+    </RelativeLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ListView
+            android:id="@+id/lv"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <TextView
+        android:id="@+id/tv_add"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:text="添加地址"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"/>
+</LinearLayout>
