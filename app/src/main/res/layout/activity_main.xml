@@ -23,7 +23,7 @@
             <ImageView
                 android:id="@+id/iv_home"
                 android:layout_width="wrap_content"
-                android:layout_height="28dp"
+                android:layout_height="30dp"
                 android:layout_centerHorizontal="true"
                 android:focusable="false"
                 android:scaleType="centerInside"
@@ -52,7 +52,7 @@
             <ImageView
                 android:id="@+id/iv_goods"
                 android:layout_width="wrap_content"
-                android:layout_height="28dp"
+                android:layout_height="30dp"
                 android:layout_centerHorizontal="true"
                 android:focusable="false"
                 android:scaleType="centerInside"
@@ -81,7 +81,7 @@
             <ImageView
                 android:id="@+id/iv_shopcart"
                 android:layout_width="wrap_content"
-                android:layout_height="28dp"
+                android:layout_height="30dp"
                 android:layout_centerHorizontal="true"
                 android:focusable="false"
                 android:scaleType="centerInside"
@@ -110,7 +110,7 @@
             <ImageView
                 android:id="@+id/iv_recommend"
                 android:layout_width="wrap_content"
-                android:layout_height="28dp"
+                android:layout_height="30dp"
                 android:layout_centerHorizontal="true"
                 android:focusable="false"
                 android:scaleType="centerInside"
@@ -139,7 +139,7 @@
             <ImageView
                 android:id="@+id/iv_me"
                 android:layout_width="wrap_content"
-                android:layout_height="28dp"
+                android:layout_height="30dp"
                 android:layout_centerHorizontal="true"
                 android:focusable="false"
                 android:scaleType="centerInside"
