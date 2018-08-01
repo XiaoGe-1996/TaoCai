@@ -25,15 +25,15 @@
 * 在订单模块，商家可以查看所有订单内容，并对订单进行发货操作。
 
 ## 用户端部分功能展示
-![](https://github.com/AndroidYiku/TaoCai/blob/master/images/user_home.jpg) 
-![](https://github.com/AndroidYiku/TaoCai/blob/master/images/user_shopcart.jpg)
-![](https://github.com/AndroidYiku/TaoCai/blob/master/images/user_order_pay.jpg)
-![](https://github.com/AndroidYiku/TaoCai/blob/master/images/user_mine.jpg)
+![](https://github.com/AndroidYiku/TaoCai/blob/master/images/user_home.png) 
+![](https://github.com/AndroidYiku/TaoCai/blob/master/images/user_shopcart.png)
+![](https://github.com/AndroidYiku/TaoCai/blob/master/images/user_order_pay.png)
+![](https://github.com/AndroidYiku/TaoCai/blob/master/images/user_mine.png)
 
 ## 商户端部分功能展示
-![](https://github.com/AndroidYiku/TaoCai/blob/master/images/shop_goods_update.jpg) 
-![](https://github.com/AndroidYiku/TaoCai/blob/master/images/shop_order.jpg)
-![](https://github.com/AndroidYiku/TaoCai/blob/master/images/shop_send_goods.jpg)
+![](https://github.com/AndroidYiku/TaoCai/blob/master/images/shop_goods_update.png) 
+![](https://github.com/AndroidYiku/TaoCai/blob/master/images/shop_order.png)
+![](https://github.com/AndroidYiku/TaoCai/blob/master/images/shop_send_goods.png)
 
 ## 提示
 * 该项目为本人毕设项目，分享出来用于同学们学习讨论交流，目前已暂停维护。如有任何问题，可通过邮箱906275807@qq.com联系我，或者为该项目提出issue。
