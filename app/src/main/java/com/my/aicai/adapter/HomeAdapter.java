@@ -61,9 +61,12 @@ public class HomeAdapter extends BaseAdapter {
         TextView tv_name= (TextView) view.findViewById(R.id.tv_name);
         TextView tv_price= (TextView) view.findViewById(R.id.tv_price);
 
-        ImageLoader.getInstance().displayImage(list.get(position).getPic().getUrl(),iv,options);
-        tv_name.setText(list.get(position).getName());
-        tv_price.setText(list.get(position).getPrice()+"元/斤");
+        GoodsEntity item = list.get(position);
+        if (item != null) {
+            ImageLoader.getInstance().displayImage(item.getPic() ==null ? "" : item.getPic().getUrl(),iv,options);
+            tv_name.setText(item.getName());
+            tv_price.setText(item.getPrice()+"元/斤");
+        }
 
         return view;
     }
